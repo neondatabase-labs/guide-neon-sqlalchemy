@@ -13,7 +13,7 @@ from app.models import Base
 # access to the values within the .ini file in use.
 config = context.config
 
-dotenv.load_dotenv("../.env")
+dotenv.load_dotenv()
 config.set_main_option('sqlalchemy.url', os.getenv('DATABASE_URL', ""))
 
 # Interpret the config file for Python logging.
