@@ -1,3 +1,5 @@
+<img width="250px" src="https://neon.tech/brand/neon-logo-dark-color.svg" />
+
 # Running migrations in a Neon-SQLAlchemy project
 
 This application is a simple python API using the FastAPI framework, Neon Postgres database, and SQLAlchemy to interact wiht it. It returns a list of authors and books written by them. We illustrate how to generate and run schema change migrations using the `alembic` tool.
